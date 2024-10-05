@@ -13,6 +13,10 @@
     justify-content: flex-start;
     font-weight: 550;
     line-height: 1.8rem;
+
+    &.separate{
+        border-top: 1px solid rgba(22, 24, 35, 0.12);
+    }
     &:hover{
         background-color: rgba(22, 24, 35, 0.03);
         cursor: pointer;
@@ -22,7 +26,6 @@
 
 
 // header
-
 .header{
     position: relative;
     height: 50px;
@@ -42,3 +45,5 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+

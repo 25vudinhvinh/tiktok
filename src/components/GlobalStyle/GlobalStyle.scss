@@ -39,6 +39,11 @@ button, input, [tabindex]{
     border: none;
 }
 
+button{
+    background-color: transparent;
+    
+}
+
 a[href]{
     color: var(--text-color);
     text-decoration: none;
