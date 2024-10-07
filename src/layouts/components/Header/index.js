@@ -9,7 +9,7 @@ import Button from '~/components/Button';
 import Menu from '~/components/Popper/Menu';
 import Search from '~/components/Search';
 import { Link } from 'react-router-dom';
-import { routes as routesConfig } from '~/configs/routes';
+import { config } from '~/configs';
 
 
 
@@ -74,7 +74,7 @@ function Header() {
             <div className={cx('inner')}>
 
 
-                <Link to={routesConfig.home}>
+                <Link to={config.routes.home}>
                 <img src={image.logo}  alt='tiktok'/>
                 </Link>
 

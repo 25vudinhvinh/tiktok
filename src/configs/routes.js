@@ -1,4 +1,4 @@
-export const routes = {
+const routes = {
     home: '/',
     following: '/following',
     profile: '/@:nickname',
@@ -6,3 +6,5 @@ export const routes = {
     search: '/search',
 
 }
+
+export default routes
