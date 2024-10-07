@@ -1,1 +1,5 @@
-export { default as config } from './routes'
+import routes from './routes';
+const config = {
+    routes,
+};
+export default config;

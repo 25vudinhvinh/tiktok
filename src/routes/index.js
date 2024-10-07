@@ -1,5 +1,5 @@
 import { HeaderOnly } from '~/layouts';
-import { config } from '~/configs';
+import config from '~/configs';
 
 import Home from '~/pages/Home';
 import Following from '~/pages/Following';

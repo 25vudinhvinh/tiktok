@@ -9,7 +9,7 @@ import Button from '~/components/Button';
 import Menu from '~/components/Popper/Menu';
 import Search from '~/components/Search';
 import { Link } from 'react-router-dom';
-import { config } from '~/configs';
+import  config  from '~/configs';
 
 
 
