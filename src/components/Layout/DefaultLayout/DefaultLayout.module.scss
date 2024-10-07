@@ -4,6 +4,8 @@
     align-items: center;
 }
 .container{
+    min-height: 2000px;
+    margin-top: var(--default-layout-header-height);
     width: var(--default-layout-weight-content);
     display: flex;
     padding: 0 var(--default-layout-horizontal-spacer);
