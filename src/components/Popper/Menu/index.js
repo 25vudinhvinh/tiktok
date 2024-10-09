@@ -29,6 +29,7 @@ function Menu( {children, items} ) {
     })
     }   
     return ( 
+      <div>  
         <Tippy 
         hideOnClick={false}
         delay={[0, 700]}
@@ -49,6 +50,7 @@ function Menu( {children, items} ) {
              {children}
         </Tippy>
 
+        </div>
             );
         }
 

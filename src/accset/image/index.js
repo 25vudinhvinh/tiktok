@@ -1,4 +1,6 @@
 const image = {
-    logo: require('~/accset/image/logo.svg').default
+    logo: require('~/accset/image/logo.svg').default,
 }
 export default image
+
+
