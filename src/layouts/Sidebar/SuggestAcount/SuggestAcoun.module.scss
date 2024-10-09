@@ -1,0 +1,62 @@
+.account-item{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+
+    &:hover{
+        background-color: rgba(22, 24, 35, 0.03);   
+        cursor: pointer;
+    }
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+.infor-account{
+    margin-left: 8px;
+}
+
+.nick-name{
+
+}
+
+.full-name{
+    color: rgba(22, 24, 35, 0.75);
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 15px;
+}
+.check-btn{
+    margin-left: 4px;
+    color: #20D5EC;
+    font-size: 1.4rem;
+}
+
+
+
+// suggestAccount
+.wrapper{
+    margin-top: 8px;
+    padding: 16px 0;
+    border-top:1px solid rgba(22, 24, 35, 0.12) ;
+}
+.label{
+    padding: 0 8px ;
+    margin: 0 0 8px;
+    font-weight: 600;
+    line-height: 1.8rem;
+    color: rgba(22, 24, 35, 0.75);
+}
+
+
+.see-all{
+    color: var(--primary);
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 8px 8px 0;
+    cursor: pointer;
+}

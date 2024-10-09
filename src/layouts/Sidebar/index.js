@@ -4,6 +4,7 @@ import styles from './Sidebar.module.scss'
 import classNames from "classnames/bind";
 import Menu, {MenuItem} from './Menu'
 import { actionCam, actionCamActive, homeIcon,  homeIconActive,  userForward, userForwardActive } from '~/components/Icons/Icon';
+import SuggestAccount, { AccountItem } from './SuggestAcount';
 
 
 
@@ -18,6 +19,23 @@ function Sidebar() {
             <MenuItem title='Following' to={config.routes.following} icon={userForward} activeIcon={userForwardActive}  />
             <MenuItem title='LIVE' to={config.routes.live} icon={actionCam} activeIcon={actionCamActive}/>
         </Menu>
-    </aside>)
+
+        <SuggestAccount label='Suggest Accounts'>
+            <AccountItem  />
+            <AccountItem  />
+            <AccountItem  />
+            <AccountItem  />
+            <AccountItem  />
+        </SuggestAccount>
+
+
+        <SuggestAccount label='Following Accounts'>
+            <AccountItem  />
+            <AccountItem  />
+            <AccountItem  />
+            <AccountItem  />
+            <AccountItem  />
+        </SuggestAccount>
+    </aside>)   
 }
 export default Sidebar;
